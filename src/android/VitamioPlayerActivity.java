@@ -28,7 +28,7 @@ public class VitamioPlayerActivity extends Activity {
     private TextView mLoadingText = null;
     private boolean mHandled = false;
     private boolean mNotSeekable = false;
-	private MediaPlayer mp = null;
+	//private MediaPlayer mp = null;
     
 	@Override
 	public void onCreate(Bundle b) {
