@@ -10,10 +10,6 @@ Vitamio.prototype.playVideo = function(url, loadingText, useMediaController){
  exec(null, null, "Vitamio", "playVideo", [url, loadingText, useMediaController]);
 }
 
-
- var vitamio = new Vitamio();
- module.exports = vitamio;
-
 Vitamio.install = function () {
 	if (!window.plugins) {
 		window.plugins = {};
